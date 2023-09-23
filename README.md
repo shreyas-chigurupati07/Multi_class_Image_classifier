@@ -12,11 +12,11 @@
 8. Evaluation
 9. Results
 10. License
-### Introduction ###
+### 1. Introduction ###
 
 This project aims to classify images into multiple classes using a Convolutional Neural Network (CNN). The model takes grayscale, normalized images as input and outputs the class labels, achieving a test accuracy of XX%.
 
-### Dependencies ###
+### 2. Dependencies ###
 
 Python 3.X
 TensorFlow 2.X
