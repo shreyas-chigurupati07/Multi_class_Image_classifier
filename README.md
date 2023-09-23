@@ -28,8 +28,8 @@ Seaborn
 scikit-learn
 ### 3. Getting Started ###
 
-Clone this repository.
-Run pip install -r requirements.txt to install the dependencies.
+Clone this repository.  
+Run pip install -r requirements.txt to install the dependencies.  
 Run your_script.py to execute the model.
 ### 4. Dataset ###
 
