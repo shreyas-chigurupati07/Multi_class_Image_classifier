@@ -1,6 +1,6 @@
 # Multi-Class Image Classification with Convolutional Neural Networks
 
-Table of Contents
+# Table of Contents
 
 Introduction
 Dependencies
