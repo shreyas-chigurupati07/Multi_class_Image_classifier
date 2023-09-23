@@ -1,22 +1,22 @@
 # Multi-Class Image Classification with Convolutional Neural Networks
 
-# Table of Contents
+## Table of Contents ##
 
-Introduction
-Dependencies
-Getting Started
-Dataset
-Preprocessing
-Model Architecture
-Training
-Evaluation
-Results
-License
-Introduction
+1. Introduction
+2. Dependencies
+3. Getting Started
+4. Dataset
+5. Preprocessing
+6. Model Architecture
+7. Training
+8. Evaluation
+9. Results
+10. License
+### Introduction ###
 
 This project aims to classify images into multiple classes using a Convolutional Neural Network (CNN). The model takes grayscale, normalized images as input and outputs the class labels, achieving a test accuracy of XX%.
 
-Dependencies
+### Dependencies ###
 
 Python 3.X
 TensorFlow 2.X
@@ -25,23 +25,23 @@ NumPy
 Matplotlib
 Seaborn
 scikit-learn
-Getting Started
+### Getting Started ###
 
 Clone this repository.
 Run pip install -r requirements.txt to install the dependencies.
 Run your_script.py to execute the model.
-Dataset
+### Dataset ###
 
-The dataset consists of labeled images in .p (pickle) format, divided into training, validation, and test sets. The labels correspond to XX different classes.
+The dataset consists of labeled images in .p (pickle) format, divided into training, validation, and test sets.
 
-Training set: XX images
-Validation set: XX images
-Test set: XX images
-Preprocessing
+Training set: train.p
+Validation set: valid.p
+Test set: test.p
+### Preprocessing ###
 
 Grayscale Conversion: Each image is converted to grayscale to reduce computational complexity.
 Normalization: The pixel intensity is normalized to the range [-1, 1] to improve model convergence speed.
-Model Architecture
+### Model Architecture ###
 
 The CNN model was implemented using TensorFlow and Keras, and consists of the following layers:
 
@@ -54,7 +54,7 @@ Flatten Layer
 Fully Connected Layer with 120 units (ReLU activation)
 Fully Connected Layer with 84 units (ReLU activation)
 Output Layer with 43 units (Softmax activation)
-Training
+### Training ###
 
 The model is trained on the grayscale and normalized training images using the following parameters:
 
@@ -63,13 +63,13 @@ Loss Function: Sparse Categorical Cross-Entropy
 Metrics: Accuracy
 Batch Size: 500
 Epochs: 5
-Evaluation
+### Evaluation ###
 
 The model performance is evaluated using the test set, and the results are as follows:
 
-Test Loss: XX
-Test Accuracy: XX%
-Results
+Test Loss: 80.64
+Test Accuracy: 81.3%
+### Results ###
 
 Training and validation loss curves
 Training and validation accuracy curves
@@ -77,6 +77,6 @@ Confusion matrix
 Sample predictions on test images
 You can find the visualizations in the results/ folder.
 
-License
+### License ###
 
 This project is licensed under the MIT License - see the LICENSE.md file for details.
