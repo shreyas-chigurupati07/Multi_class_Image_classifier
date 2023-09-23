@@ -28,9 +28,9 @@ Seaborn
 scikit-learn
 ### 3. Getting Started ###
 
-Clone this repository.<br> 
-Run pip install -r requirements.txt to install the dependencies.<br>
-Run your_script.py to execute the model.
+* Clone this repository.<br> 
+* Run pip install -r requirements.txt to install the dependencies.<br>
+* Run your_script.py to execute the model.
 ### 4. Dataset ###
 
 The dataset consists of labeled images in .p (pickle) format, divided into training, validation, and test sets.
