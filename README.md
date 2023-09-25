@@ -27,10 +27,18 @@ This project aims to classify images into multiple classes using a Convolutional
 * Seaborn
 * scikit-learn
 ### 3. Getting Started ###
+* Clone this repository:<br>
+  ``` bash
+  git clone https://github.com/shreyas-chigurupati07/Multi_class_Image_classifier.git
 
-* Clone this repository.<br> 
-* Run pip install -r requirements.txt to install the dependencies.<br>
-* Run your_script.py to execute the model.
+* Navigate to the project directory:<br>
+  ``` bash
+  cd Multi_class_Image_classifier
+
+* Install the required packages:<br>
+  ``` bash
+  pip install -r requirements.txt
+
 ### 4. Dataset ###
 
 The dataset consists of labeled images in .p (pickle) format, divided into training, validation, and test sets.
